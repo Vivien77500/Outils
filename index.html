@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boîte à outils</title>
+    <style>
+        body {
+            font-family: 'Assistant', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            width: 60%;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 300px; /* Grande taille du logo */
+        }
+        h1 {
+            color: #6fb98f;
+            margin-bottom: 30px;
+            margin-top: 150px; /* Espace pour le logo agrandi */
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .button {
+            width: 60%; /* Bouton centré et de largeur appropriée */
+            padding: 15px;
+            font-size: 18px;
+            background-color: #6fb98f;
+            color: white;
+            border: 2px solid #6fb98f;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .button:hover {
+            background-color: white;
+            color: #6fb98f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logomci2.png" alt="Logo MCI" class="logo"> <!-- Assurez-vous que 'logomci2.png' est dans le même dossier ou spécifiez le chemin exact -->
+        <h1>Boîte à outils</h1>
+        <div class="button-container">
+            <a href="https://vivien77500.github.io/recrutement/" class="button" target="_blank">Comparatif</a>
+            <a href="https://vivien77500.github.io/factures/" class="button" target="_blank">Demande de facture</a>
+            <a href="https://vivien77500.github.io/Docs/" class="button" target="_blank">Ressources documentées</a>
+        </div>
+    </div>
+</body>
+</html>
